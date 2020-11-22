@@ -1,0 +1,41 @@
+{
+    "name": "Wide Is Castilla",
+    "version": "1.0.0",
+    "author": "jaandreu",
+    "description": "Por la gloria de mi madre! Jar! Hasta luego Lucas! Fistro pecador! No puedor! Al ataquer! Te da cuén! A guán, a peich agromenauer...",
+    "permissions": ["https://www.dodax.es/*",
+        "https://www.dodax.fr/*",
+        "https://www.dodax.it/*",
+        "https://www.dodax.de/*",
+        "https://www.dodax.co.uk/*",
+        "https://www.dodax.pl/*",
+        "https://www.dodax.at/*",
+        "https://www.dodax.nl/*",
+        "https://api.exchangeratesapi.io/*"],
+    "content_scripts": [
+        {
+          "matches": ["https://www.dodax.es/*-dp*",
+                      "https://www.dodax.de/*-dp*", 
+                      "https://www.dodax.fr/*-dp*", 
+                      "https://www.dodax.it/*-dp*", 
+                      "https://www.dodax.co.uk/*-dp*", 
+                      "https://www.dodax.pl/*-dp*", 
+                      "https://www.dodax.at/*-dp*", 
+                      "https://www.dodax.nl/*-dp*"],
+          "js": ["search.js"],
+          "run_at": "document_end"
+        }
+      ],
+      "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "icons": {
+        "16": "images/vinyl16.png",
+        "32": "images/vinyl32.png",
+        "48": "images/vinyl48.png",
+        "128": "images/vinyl128.png"
+       },
+       "manifest_version": 2
+
+ }
