@@ -2,7 +2,7 @@
     "name": "Wide Is Castilla",
     "version": "1.0.0",
     "author": "jaandreu",
-    "description": "Por la gloria de mi madre! Jar! Hasta luego Lucas! Fistro pecador! No puedor! Al ataquer! Te da cuén! A guán, a peich agromenauer...",
+    "description": "Comparador de precios de Dodax",
     "permissions": ["https://www.dodax.es/*",
         "https://www.dodax.fr/*",
         "https://www.dodax.it/*",
