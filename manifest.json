@@ -1,6 +1,6 @@
 {
     "name": "Wide Is Castilla",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "jaandreu",
     "description": "Comparador de precios de Dodax",
     "permissions": ["https://www.dodax.es/*",
@@ -11,7 +11,7 @@
         "https://www.dodax.pl/*",
         "https://www.dodax.at/*",
         "https://www.dodax.nl/*",
-        "https://api.exchangeratesapi.io/*"],
+        "https://free.currconv.com/*"],
     "content_scripts": [
         {
           "matches": ["https://www.dodax.es/*-dp*",
